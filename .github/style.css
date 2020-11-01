@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:gainsboro;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    max-width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: white;
+    padding: 0% 2%;
+    font-size: 1.3rem;
+}
+
+header.container{
+    height: 8vh;
+    background-color: #f5f5f5;
+    border: 2px solid gainsboro;
+    background-color: yellow;
+}
+
+.logo{
+    float: left;
+}
+
+.header_list{
+    float: right;
+}
+.header_list li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+main.container{
+    height: auto;
+    padding: 0.5% 2%;
+}
+
+main.container p{
+    color: grey;
+}
+main.container aside p{
+    color: black;
+}
+
+.main_header{
+    padding: 1%;
+    border-bottom: 2px solid black;
+}
+
+aside{
+    border-left: solid 2px black;
+    float: right;
+    max-width: 30%;
+    padding: 1%;
+    margin-left:1%;
+}
+
+
+.city_article{
+border-bottom: 2px solid black;
+}
+
+
+.city_images{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5% 2%;
+}
+
+.city_photo{
+    width: 30%;
+    height: 25vh;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#photo1{
+background-image: url(/photo1.jpg);
+}
+
+#photo2{
+background-image: url(/photo2.jpg)
+}
+
+#photo3{
+background-image: url(/photo3.jpg)
+}
